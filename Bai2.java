@@ -10,8 +10,6 @@ public class Bai2 {
         boolean flag = true;
         double result;
 
-
-
         do{
             System.out.print("Nhap so tien muon gui: ");
             while(!scanner.hasNextInt()){
@@ -72,6 +70,59 @@ public class Bai2 {
         System.out.println("Tien lai theo ky: " + (int)soTienLai);
         System.out.println("Lai + Goc: " + (int)result);
     }
+
+
+        do{
+        System.out.print("Nhap so tien muon gui: ");
+        while(!scanner.hasNextInt()){
+            System.out.println("Day khong phai la so vui long nhap lai");
+            scanner.next();
+            System.out.print("Nhap so tien muon gui: ");
+        }
+        input = scanner.nextInt();
+
+        if(input <= 0){
+            System.out.print("So tien can rut ko hop le");
+            flag = false;
+        }else{
+            flag = true;
+        }
+    }while(!flag);
+
+
+        do{
+        System.out.print("Nhap so tien muon gui: ");
+        while(!scanner.hasNextInt()){
+            System.out.println("Day khong phai la so vui long nhap lai");
+            scanner.next();
+            System.out.print("Nhap so tien muon gui: ");
+        }
+        input = scanner.nextInt();
+
+        if(input <= 0){
+            System.out.print("So tien can rut ko hop le");
+            flag = false;
+        }else{
+            flag = true;
+        }
+    }while(!flag);
+
+        do{
+        System.out.print("Nhap so tien muon gui: ");
+        while(!scanner.hasNextInt()){
+            System.out.println("Day khong phai la so vui long nhap lai");
+            scanner.next();
+            System.out.print("Nhap so tien muon gui: ");
+        }
+        input = scanner.nextInt();
+
+        if(input <= 0){
+            System.out.print("So tien can rut ko hop le");
+            flag = false;
+        }else{
+            flag = true;
+        }
+    }while(!flag);
 
 
     }
