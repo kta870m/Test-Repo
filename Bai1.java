@@ -41,6 +41,13 @@ public class Bai1 {
 
             double total = Dong500 + Dong200 + Dong100 + Dong50;
 
+
+            System.out.println("hello");
+            String name = " ";
+            int n = 2;
+            System.out.println(name + n );
+
+
             System.out.println("So to 500000: " + (int) Dong500);
             System.out.println("So to 200000: " + (int) Dong200);
             System.out.println("So to 100000: " + (int) Dong100);
